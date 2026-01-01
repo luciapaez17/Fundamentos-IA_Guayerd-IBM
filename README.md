@@ -71,6 +71,7 @@ El repositorio incluye los elementos principales del proyecto:
 - **graficos/**: carpeta con gráficos generados durante el análisis y utilizados en la documentación.  
 - **programa_interactivo.py**: aplicación en Python que permite navegar la documentación y visualizar gráficos desde la terminal.  
 - **powerbi/**: carpeta con el dashboard exportado en PDF y el modelo relacional para una visualización rápida sin necesidad de Power BI.
+- **machine-learning/**: carpeta con la documentación del proceso de modelado supervisado (regresión y clasificación), incluyendo métricas, gráficos y conclusiones.
 
 
 
