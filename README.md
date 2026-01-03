@@ -72,6 +72,8 @@ El repositorio incluye los elementos principales del proyecto:
 - **programa_interactivo.py**: aplicación en Python que permite navegar la documentación y visualizar gráficos desde la terminal.  
 - **powerbi/**: carpeta con el dashboard exportado en PDF y el modelo relacional para una visualización rápida sin necesidad de Power BI.
 - **machine-learning/**: carpeta con la documentación del proceso de modelado supervisado (regresión y clasificación), incluyendo métricas, gráficos y conclusiones.
+- **documentacion_streamlit.py**: Aplicación interactiva desarrollada con Streamlit. Permite navegar la documentación, visualizar gráficos, explorar insights y acceder a las páginas del dashboard de Power BI desde una interfaz visual.
+
 
 
 
@@ -84,7 +86,7 @@ Permite explorar:
 - Documentación del proyecto  
 - Gráficos del análisis exploratorio  
 - Resultados de los modelos  
-- Información sobre el dashboard en Power BI  
+- Vista del dashboard desarrollado en Power BI  
 
 
 ### Ejecución
@@ -93,6 +95,21 @@ python programa_interactivo.py
 ```
 
 ---
+### Ejecución de la aplicación interactiva (Streamlit)
+
+Para utilizar la aplicación interactiva es necesario tener instalado Streamlit:
+
+```
+pip install streamlit
+```
+
+Luego, la aplicación puede ejecutarse con:
+
+```
+streamlit run documentacion_streamlit.py
+```
+---
+
 
 ## Dashboard en Power BI
 
